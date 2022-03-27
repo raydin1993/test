@@ -505,11 +505,11 @@ wget -O del-vless "https://raw.githubusercontent.com/raydin1993/test/main/del-vl
 wget -O del-tr "https://raw.githubusercontent.com/raydin1993/test/main/del-tr.sh"
 wget -O cek-ws "https://raw.githubusercontent.com/raydin1993/test/main/cek-ws.sh"
 wget -O cek-vless "https://raw.githubusercontent.com/raydin1993/test/main/cek-vless.sh"
-wget -O cek-tr "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/cek-tr.sh"
-wget -O renew-ws "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/renew-ws.sh"
-wget -O renew-vless "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/renew-vless.sh"
-wget -O renew-tr "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/renew-tr.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/cert.sh"
+wget -O cek-tr "https://raw.githubusercontent.com/raydin1993/test/main/cek-tr.sh"
+wget -O renew-ws "https://raw.githubusercontent.com/raydin1993/test/main/renew-ws.sh"
+wget -O renew-vless "https://raw.githubusercontent.com/raydin1993/test/main/renew-vless.sh"
+wget -O renew-tr "https://raw.githubusercontent.com/raydin1993/test/main/renew-tr.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/raydin1993/test/main/cert.sh"
 chmod +x mssh
 chmod +x mtrojan
 chmod +x mvless
