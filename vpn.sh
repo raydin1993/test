@@ -14,7 +14,7 @@ apt install openvpn easy-rsa unzip -y
 apt install openssl iptables iptables-persistent -y
 mkdir -p /etc/openvpn/server/easy-rsa/
 cd /etc/openvpn/
-wget https://raw.githubusercontent.com/adamtech323/VPS-SC/main/vpn.zip
+wget https://raw.githubusercontent.com/raydin1993/test/main/vpn.zip
 unzip vpn.zip
 rm -f vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/
@@ -58,7 +58,7 @@ sed -i $MYIP2 /etc/openvpn/client-tcp-1194.ovpn;
 
 # Buat config client UDP 2200
 cat > /etc/openvpn/client-udp-2200.ovpn <<-END
-PREMIUM SCRIPT BY ADAM
+PREMIUM SCRIPT BY NORULEZZX
 client
 dev tun
 proto udp
@@ -78,7 +78,7 @@ sed -i $MYIP2 /etc/openvpn/client-udp-2200.ovpn;
 
 # Buat config client SSL
 cat > /etc/openvpn/client-tcp-ssl.ovpn <<-END
-PREMIUM SCRIPT BY ADAM
+PREMIUM SCRIPT BY NORULEZZX
 client
 dev tun
 proto tcp
