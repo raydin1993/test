@@ -26,12 +26,12 @@ logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
 cd /usr/bin
-wget -O autobackup "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/backup.sh"
-wget -O bckp "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/bckp.sh"
-wget -O restore "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/restore.sh"
-wget -O strt "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/strt.sh"
-wget -O limit-speed "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/limit-speed.sh"
+wget -O autobackup "https://raw.githubusercontent.com/raydin1993/test/main/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/raydin1993/test/main/backup.sh"
+wget -O bckp "https://raw.githubusercontent.com/raydin1993/test/main/bckp.sh"
+wget -O restore "https://raw.githubusercontent.com/raydin1993/test/main/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/raydin1993/test/main/strt.sh"
+wget -O limit-speed "https://raw.githubusercontent.com/raydin1993/test/main/limit-speed.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x bckp
