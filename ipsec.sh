@@ -277,8 +277,8 @@ mkdir -p /run/pluto
 service fail2ban restart 2>/dev/null
 service ipsec restart 2>/dev/null
 service xl2tpd restart 2>/dev/null
-wget -O /usr/bin/ml2ppss-tp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/ml2ppss-tp.sh && chmod +x /usr/bin/ml2ppss-tp
-wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
+wget -O /usr/bin/ml2ppss-tp https://raw.githubusercontent.com/raydin1993/test/main/ml2ppss-tp.sh && chmod +x /usr/bin/ml2ppss-tp
+wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/raydin1993n/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
 wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
 wget -O /usr/bin/add-pptp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
 wget -O /usr/bin/del-pptp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
