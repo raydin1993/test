@@ -100,6 +100,6 @@ echo -e "* update       : Perbarui script"
 echo -e "* info         : Displaying System Information"
 echo -e "* about        : Info Script Auto Install"
 echo -e "* exit         : Exit From VPS "
-echo -e ""                SCRIPT BY ADAM
+echo -e ""                SCRIPT BY NORULEZZX
 echo -e "==============================================================="
 echo -e ""
