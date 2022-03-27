@@ -39,10 +39,10 @@ wget https://raw.githubusercontent.com/raydin1993/test/main/wg.sh && chmod +x wg
 #install v2ray
 wget https://raw.githubusercontent.com/raydin1993/test/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install xray
-wget https:///install-xray.sh && chmod +x install-xray.sh && screen -S xray ./install-xray.sh
+wget https://raw.githubusercontent.com/raydin1993/test/main/install-xray.sh && chmod +x install-xray.sh && screen -S xray ./install-xray.sh
 #install L2TP
-wget https://raw.githubusercontent.com/adamtech323/VPS-SC/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
-wget https://raw.githubusercontent.com/adamtech323/VPS-SC/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/raydin1993/test/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://raw.githubusercontent.com/raydin1993/test/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 
 
@@ -70,7 +70,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/set.sh"
+wget -O /etc/set.sh "https://raw.githubusercontent.com/raydin1993/test/main/set.sh"
 chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
@@ -125,11 +125,11 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : DAM"  | tee -a log-install.txt
-echo "   - Modded by               : ADAMVPN"  | tee -a log-install.txt
-echo "   - Telegram                : t.me/ADAMVPN"  | tee -a log-install.txt
+echo "   - Dev/Main                : N.RULEZZx"  | tee -a log-install.txt
+echo "   - Modded by               : NORULEZZX"  | tee -a log-install.txt
+echo "   - Telegram                : t.me/NORULEZZX"  | tee -a log-install.txt
 echo "   - Instagram               : Rahsia sayang"  | tee -a log-install.txt
-echo "   - Whatsapp                : 0184677179"   | tee -a log-install.txt
+echo "   - Whatsapp                : SOON"   | tee -a log-install.txt
 echo "   - Facebook                : Rahsia sayang" | tee -a log-install.txt
 echo "------------------Script Created By adam-----------------" | tee -a log-install.txt
 echo ""
