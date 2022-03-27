@@ -278,13 +278,13 @@ service fail2ban restart 2>/dev/null
 service ipsec restart 2>/dev/null
 service xl2tpd restart 2>/dev/null
 wget -O /usr/bin/ml2ppss-tp https://raw.githubusercontent.com/raydin1993/test/main/ml2ppss-tp.sh && chmod +x /usr/bin/ml2ppss-tp
-wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/raydin1993n/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
-wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
-wget -O /usr/bin/add-pptp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
-wget -O /usr/bin/del-pptp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
-wget -O /usr/bin/renew-pptp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/renew-pptp.sh && chmod +x /usr/bin/renew-pptp
-wget -O /usr/bin/renew-l2tp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
-wget -O /usr/bin/cek-pptp https://raw.githubusercontent.com/adamtech323/VPS-SC/main/cek-pptp.sh && chmod +x /usr/bin/cek-pptp
+wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/raydin1993/test/main/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
+wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/raydin1993/test/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
+wget -O /usr/bin/add-pptp https://raw.githubusercontent.com/raydin1993/test/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
+wget -O /usr/bin/del-pptp https://raw.githubusercontent.com/raydin1993/test/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
+wget -O /usr/bin/renew-pptp https://raw.githubusercontent.com/raydin1993/test/main/renew-pptp.sh && chmod +x /usr/bin/renew-pptp
+wget -O /usr/bin/renew-l2tp https://raw.githubusercontent.com/raydin1993/test/main/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
+wget -O /usr/bin/cek-pptp https://raw.githubusercontent.com/raydin1993/test/main/cek-pptp.sh && chmod +x /usr/bin/cek-pptp
 touch /var/lib/premium-script/data-user-l2tp
 touch /var/lib/premium-script/data-user-pptp
 rm -f /root/ipsec.sh
