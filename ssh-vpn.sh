@@ -122,7 +122,7 @@ echo "/usr/sbin/nologin" >> /etc/shells
 # install squid
 cd
 apt -y install squid3
-wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/squid3.conf"
+wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/raydin1993/test/main/squid3.conf"
 sed -i $MYIP2 /etc/squid/squid.conf
 
 # setting vnstat
@@ -181,10 +181,10 @@ apt -y install tmux
 apt -y install ruby
 gem install lolcat
 apt -y install figlet
-wget -q https://raw.githubusercontent.com/adamtech323/VPS-SC/main/edu.sh && chmod +x edu.sh && ./edu.sh
+wget -q https://raw.githubusercontent.com/raydin1993/test/main/edu.sh && chmod +x edu.sh && ./edu.sh
 
 #OpenVPN
-wget https://raw.githubusercontent.com/adamtech323/VPS-SC/main/vpn.sh && chmod +x vpn.sh && ./vpn.sh
+wget https://raw.githubusercontent.com/raydin1993/test/main/vpn.sh && chmod +x vpn.sh && ./vpn.sh
 
 # install fail2ban
 apt -y install fail2ban
@@ -217,7 +217,7 @@ echo 'Config file is at /usr/local/ddos/ddos.conf'
 echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 
 # banner /etc/issue.net
-wget -O /etc/issue.net "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/issue.net"
+wget -O /etc/issue.net "https://raw.githubusercontent.com/raydin1993/test/main/issue.net"
 echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 
@@ -240,29 +240,29 @@ netfilter-persistent reload
 
 # download script
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/menu.sh"
-wget -O add-host "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/add-host.sh"
-wget -O about "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/about.sh"
-wget -O usernew "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/trial.sh"
-wget -O hapus "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/hapus.sh"
-wget -O member "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/member.sh"
-wget -O delete "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/delete.sh"
-wget -O cek "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/cek.sh"
-wget -O restart "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/restart.sh"
-wget -O speedtest "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/speedtest_cli.py"
-wget -O info "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/info.sh"
-wget -O ram "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/ram.sh"
-wget -O renew "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/renew.sh"
-wget -O autokill "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/autokill.sh"
-wget -O ceklim "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/ceklim.sh"
-wget -O tendang "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/tendang.sh"
-wget -O clear-log "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/clear-log.sh"
-wget -O change "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/change.sh"
-wget -O port-ovpn "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/port-ovpn.sh"
-wget -O port-ssl "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/port-ssl.sh"
-wget -O port-wg "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/port-wg.sh"
-wget -O port-tr "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/port-tr.sh"
+wget -O menu "https://raw.githubusercontent.com/raydin1993/test/main/menu.sh"
+wget -O add-host "https://raw.githubusercontent.com/raydin1993/test/main/add-host.sh"
+wget -O about "https://raw.githubusercontent.com/raydin1993/test/main/about.sh"
+wget -O usernew "https://raw.githubusercontent.com/raydin1993/test/main/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/raydin1993/test/main/trial.sh"
+wget -O hapus "https://raw.githubusercontent.com/raydin1993/test/main/hapus.sh"
+wget -O member "https://raw.githubusercontent.com/raydin1993/test/main/member.sh"
+wget -O delete "https://raw.githubusercontent.com/raydin1993/test/main/delete.sh"
+wget -O cek "https://raw.githubusercontent.com/raydin1993/test/main/cek.sh"
+wget -O restart "https://raw.githubusercontent.com/raydin1993/test/main/restart.sh"
+wget -O speedtest "https://raw.githubusercontent.com/raydin1993/test/main/speedtest_cli.py"
+wget -O info "https://raw.githubusercontent.com/raydin1993/test/main/info.sh"
+wget -O ram "https://raw.githubusercontent.com/raydin1993/test/main/ram.sh"
+wget -O renew "https://raw.githubusercontent.com/raydin1993/test/main/renew.sh"
+wget -O autokill "https://raw.githubusercontent.com/raydin1993/test/main/autokill.sh"
+wget -O ceklim "https://raw.githubusercontent.com/raydin1993/test/main/ceklim.sh"
+wget -O tendang "https://raw.githubusercontent.com/raydin1993/test/main/tendang.sh"
+wget -O clear-log "https://raw.githubusercontent.com/raydin1993/test/main/clear-log.sh"
+wget -O change "https://raw.githubusercontent.com/raydin1993/test/main/change.sh"
+wget -O port-ovpn "https://raw.githubusercontent.com/raydin1993/test/main/port-ovpn.sh"
+wget -O port-ssl "https://raw.githubusercontent.com/raydin1993/test/main/port-ssl.sh"
+wget -O port-wg "https://raw.githubusercontent.com/raydin1993/test/main/port-wg.sh"
+wget -O port-tr "https://raw.githubusercontent.com/raydin1993/test/main/port-tr.sh"
 wget -O port-sstp "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/port-sstp.sh"
 wget -O port-squid "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/port-squid.sh"
 wget -O port-ws "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/port-ws.sh"
