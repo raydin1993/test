@@ -30,14 +30,14 @@ wget -O port-sstp "https://raw.githubusercontent.com/raydin1993/test/main/port-s
 wget -O port-squid "https://raw.githubusercontent.com/raydin1993/test/main/port-squid.sh"
 wget -O port-ws "https://raw.githubusercontent.com/raydin1993/test/main/port-ws.sh"
 wget -O port-vless "https://raw.githubusercontent.com/raydin1993/test/main/port-vless.sh"
-wget -O wbmn "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/webmin.sh"
+wget -O wbmn "https://raw.githubusercontent.com/raydin1993/test/main/webmin.sh"
 wget -O xp "https://raw.githubusercontent.com/raydin1993/test/main/xp.sh"
-wget -O limit-speed "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/limit-speed.sh"
-wget -O add-sstp "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/add-sstp.sh"
-wget -O add-xray "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/add-xray.sh"
-wget -O add-ws "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/add-ws.sh"
-wget -O add-vless "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/add-vless.sh"
-wget -O add-tr "https://raw.githubusercontent.com/adamtech323/VPS-SC/main/add-tr.sh"
+wget -O limit-speed "https://raw.githubusercontent.com/raydin1993/test/main/limit-speed.sh"
+wget -O add-sstp "https://raw.githubusercontent.com/raydin1993/test/main/add-sstp.sh"
+wget -O add-xray "https://raw.githubusercontent.com/raydin1993/test/main/add-xray.sh"
+wget -O add-ws "https://raw.githubusercontent.com/raydin1993/test/main/add-ws.sh"
+wget -O add-vless "https://raw.githubusercontent.com/raydin1993/test/main/add-vless.sh"
+wget -O add-tr "https://raw.githubusercontent.com/raydin1993/test/main/add-tr.sh"
 chmod +x change
 chmod +x port-ovpn
 chmod +x port-ssl
